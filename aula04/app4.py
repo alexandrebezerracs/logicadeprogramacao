@@ -32,4 +32,3 @@ while True:
             break
         case _:
             print("Digite um número válido")
-            break

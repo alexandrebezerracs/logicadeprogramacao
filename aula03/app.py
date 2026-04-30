@@ -12,8 +12,6 @@ while True:
     nota=float(input("Digite um nota: "))
     listadenotas.append(nota)
     print(listadenotas)
-
-
     opcao=input("Deseja adicionar mais notas? (enter - sim | n - não)").lower()
 
     if opcao =="n":
