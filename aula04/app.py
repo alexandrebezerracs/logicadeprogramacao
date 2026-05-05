@@ -30,7 +30,7 @@ import random
 listadenomes=['Arthur', 'Benjamin', 'Gael', 'Theo', 'Heitor', 'Heloísa', 'Maya', 'Aurora', 'Valentina',
 'Cecília', 'Alex', 'Charlie', 'Taylor', 'Robin', 'Cris', 'Luna', 'Íris', 'Kai', 'Flora', 'Ravi']
 
-'''
+
 for i, nome in enumerate(listadenomes):
 
     print(f"{i+1}º {nome}")
@@ -41,6 +41,9 @@ for i, nome in enumerate(listadenomes):
         print("Usuário encontrado")
     else:
         print("Usuário não encontrado")
+
+
+
 '''
 listasorteados=[]
 
@@ -60,3 +63,4 @@ while sorteados==1:
     sorteados+=1
 
 print("\nfim do programa")
+'''
