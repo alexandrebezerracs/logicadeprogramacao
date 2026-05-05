@@ -35,7 +35,7 @@ while True:
         carros.append(carro)
         proximo_id +=1
 
-        print('✅Carro cadastrado')
+        print('✅ Carro cadastrado')
 
     #read
     elif opcao =="2":
@@ -70,7 +70,7 @@ while True:
                 encontrado = True
                 break
         if not encontrado:
-            print("❌Carro não encontrado!")
+            print("❌ Carro não encontrado!")
                 
     #delete
     elif opcao =='4':
@@ -85,26 +85,25 @@ while True:
         for carro in carros:
             if carro['id']==id_busca:
                 carros.remove(carro)
-                print("✅Carro deletado com sucesso")
+                print("✅ Carro deletado com sucesso")
                 encontrado=True
                 break
 
         if not encontrado:
-            print("❌Carro não encontrado!")
+            print("❌ Carro não encontrado!")
 
     #sair
-    elif opcao == "0":
-        os.system("cls")
-        total =20
-        barra=""
-        print("saindo do sistema...")
-        for i in range(1,total+1):
+    elif opcao == '0':
+        total = 20
+        barra =""
+        print('Saindo do Sistema...')
+        for i in range(1, total +1):
             barra +="🟩"
-            porcentagem = int((i/total)*100)
-            vazio = "-" * (total-1)
+            porcentagem = int((i / total *100))
+            vazio = "-" * (total -1)
             print(f'\r[{barra}] {porcentagem}%', end="")
-        time.sleep(0.3)
+            time.sleep(0.2)
         break
-    
+
     else:
-        print('❌opçaõ inválida')
+        print('❌ Opção inválida.')
