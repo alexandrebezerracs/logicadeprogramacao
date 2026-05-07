@@ -1,11 +1,5 @@
 '''
-
-Desenvolva um sistema de gerenciamento de veiculos, permita cadastrar o veículo pegando do usuário os seguintes dados (modelo, marca, preço)
-    - Os dados devem ser armazenados em um arquivo.
-    - o usuário deve poder cadastrar quantos carros quiser sem ter que rodar o sistema novamente.
-    - deve ter a opção de ler os carros existentes
-    - devem ser cadastrados eu um arquivo .txt e usar dicionário.
-
+Criar um sistema de controle de carros usando CRUD
 '''
 import time
 import os

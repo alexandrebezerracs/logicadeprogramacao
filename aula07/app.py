@@ -53,7 +53,7 @@ with open('frutas.txt', "w") as arquivo:
     for i in frutas:
         arquivo.write(i+"\n")
 
-#converter o arquivoem uma lista
+#converter o arquivo em uma lista
 with open("frutas.txt", 'r') as arquivo:
     linhas=arquivo.readlines()
     
