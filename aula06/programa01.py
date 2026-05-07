@@ -41,5 +41,5 @@ while True:
 
 os.system("cls")
 media=sum(listadenotas)/len(listadenotas)
-result="Aprovado!" if media>7 else "Reprovado!"
+result="Aprovado!" if media>=7 else "Reprovado!"
 print(result)
