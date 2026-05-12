@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 1;Corolla;70000;Toyota
 2;Camaro;120000;Chevrolet
 3;Compass;190000;Jeep
 4;Uno;30000;Fiat
+=======
+1;Compass;1900000;Jeep
+2;Camaro;120000;Chevrolet
+3;Uno;30000;Fiat
+>>>>>>> 734b305 (Novo Commit)

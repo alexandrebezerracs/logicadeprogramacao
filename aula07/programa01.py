@@ -14,6 +14,7 @@ proximo_id=1
 
 open("carros.txt", "a").close()
 
+
 with open("carros.txt", "r", encoding="utf-8") as arquivo:
     for linha in arquivo:
 
@@ -33,6 +34,26 @@ with open("carros.txt", "r", encoding="utf-8") as arquivo:
             if carro["id"] >= proximo_id:
                 proximo_id = carro["id"] + 1
 
+
+with open("carros.txt", "r", encoding="utf-8") as arquivo:
+    for linha in arquivo:
+
+        dados=linha.strip().split(";")
+
+        if len(dados)==4:
+
+            carro ={
+                "id": int(dados[0]),
+                "modelo": dados[1],
+                "preço": dados[2],
+                "marca": dados[3]
+            }
+
+            carros.append(carro)
+
+            if carro["id"] >= proximo_id:
+                proximo_id = carro["id"] + 1
+# Menu
 os.system("cls")
 while True:
     print("\n----------------- Sistema de carros 🚗 -----------------")

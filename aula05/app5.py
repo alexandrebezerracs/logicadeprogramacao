@@ -217,4 +217,3 @@ print(f"O número absoluto é {numero:.0f}")
 
 time.sleep(5)
 os.system("cls")
-

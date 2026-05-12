@@ -16,7 +16,7 @@ modos de ação:
 #criando e escrevendo arquivo
 import os
 
-arquivo=open("primeiroarquivo.txt", 'w')
+arquivo=open("primeiroarquivo.txt", '')
 arquivo.write('Olá mundo! meu primeiro arquivo')
 arquivo.close()
 
@@ -68,9 +68,9 @@ with open("frutas.txt", 'r') as arquivo:
         print(linha.strip())
 '''
 saída: pera
-abacaxi
+ab
+mangaacaxi
 melancia
-manga
 caju
 '''
 # exemplo para cadastro
@@ -88,3 +88,6 @@ while True:
 
     if sair =="s":
         break
+
+
+    
