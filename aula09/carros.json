@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "modelo": "Camaro",
+        "preço": 200000.0,
+        "marca": "Chevrolet"
+    },
+    {
+        "id": 2,
+        "modelo": "Uno",
+        "preço": 20000.0,
+        "marca": "Fiat"
+    },
+    {
+        "id": 3,
+        "modelo": "Compass",
+        "preço": 200000.0,
+        "marca": "Jeep"
+    },
+    {
+        "id": 4,
+        "modelo": "Jeep",
+        "preço": 100.0,
+        "marca": "Compass"
+    }
+]
