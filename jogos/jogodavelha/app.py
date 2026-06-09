@@ -1,10 +1,10 @@
 def imprimir_tabuleiro(tabuleiro):
     print("\n")
-    print(f" {tabuleiro[0]} | {tabuleiro[1]} | {tabuleiro[2]} ")
+    print(f" {tabuleiro[6]} | {tabuleiro[7]} | {tabuleiro[8]} ")
     print("---|---|---")
     print(f" {tabuleiro[3]} | {tabuleiro[4]} | {tabuleiro[5]} ")
     print("---|---|---")
-    print(f" {tabuleiro[6]} | {tabuleiro[7]} | {tabuleiro[8]} ")
+    print(f" {tabuleiro[0]} | {tabuleiro[1]} | {tabuleiro[2]} ")
     print("\n")
 
 def verificar_vitoria(tabuleiro, jogador):
