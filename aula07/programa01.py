@@ -78,7 +78,6 @@ while True:
                 "modelo": modelo,
                 "preço": preco,
                 "marca": marca
-
             }
             
             carros.append(carro)
